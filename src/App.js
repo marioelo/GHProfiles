@@ -3,12 +3,11 @@ import {
   View,
   Text,
 } from 'react-native';
+import MainStackNavigator from './navigation/MainStackNavigator'
 
 const App = props => {
     return (
-      <View style={{justifyContent: 'center', alignItems: 'center', flex: 1}}>
-        <Text>GHProfiles</Text>
-      </View>
+      <MainStackNavigator />
     );
 }
 
